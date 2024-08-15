@@ -36,14 +36,9 @@ public class Projeto_12_4 {
                           c = c + 1;
                     }
                     
-                    if(senha == senha_real){
-                        System.out.println("Senha correta.");
-                           c = c + 3; 
-                    }
-                    
-                    if(nome == nome_real){
-                        System.out.println("Nome correto.");
-                           c = c + 3;
+                    else if(senha == senha_real && nome == nome_real){
+                             System.out.println("Logado com sucesso.");
+                               c = c + 3; 
                     }
        }
     }
