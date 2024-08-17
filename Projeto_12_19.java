@@ -2,14 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.projeto_12_9;
+package com.mycompany.projeto_12_19;
 
 /**
  *
  * @author w.rocha
  */
 import java.util.Scanner;
-public class Projeto_12_9 {
+public class Projeto_12_19 {
 
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
