@@ -15,7 +15,7 @@ public class Projeto_12_9 {
         Scanner ler = new Scanner(System.in);
          int base = 0;
           int expoente = 0;
-           int resultado = 0;
+           double resultado = 0;
           
           System.out.println("Digite a base");
            base = ler.nextInt();
@@ -23,7 +23,9 @@ public class Projeto_12_9 {
           System.out.println("Digite o expoente");
            expoente = ler.nextInt();
           
-           System.out.pr
+           resultado = Math.pow(base, expoente);
+           
+           System.out.println(resultado);
         
     }
 }
